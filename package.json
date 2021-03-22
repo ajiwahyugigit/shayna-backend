@@ -1,0 +1,79 @@
+{
+    "private": true,
+    "scripts": {
+        "dev": "npm run development",
+        "development": "cross-env NODE_ENV=development node_modules/webpack/bin/webpack.js --progress --config=node_modules/laravel-mix/setup/webpack.config.js",
+        "watch": "npm run development -- --watch",
+        "watch-poll": "npm run watch -- --watch-poll",
+        "hot": "cross-env NODE_ENV=development node_modules/webpack-dev-server/bin/webpack-dev-server.js --inline --hot --disable-host-check --config=node_modules/laravel-mix/setup/webpack.config.js",
+        "prod": "npm run production",
+        "production": "cross-env NODE_ENV=production node_modules/webpack/bin/webpack.js --no-progress --config=node_modules/laravel-mix/setup/webpack.config.js"
+    },
+    "devDependencies": {
+        "@tailwindcss/forms": "^0.2.1",
+        "alpinejs": "^2.7.3",
+        "autoprefixer": "^10.1.0",
+        "axios": "^0.19",
+        "cross-env": "^7.0",
+        "laravel-mix": "^5.0.1",
+        "lodash": "^4.17.19",
+        "postcss": "^8.2.1",
+        "postcss-import": "^12.0.1",
+        "resolve-url-loader": "^3.1.0",
+        "tailwindcss": "^2.0.2"
+    },
+    "packages": [],
+    "notify": "https://packagist.org/downloads/%package%",
+    "notify-batch": "https://packagist.org/downloads/",
+    "providers-url": "/p/%package%$%hash%.json",
+    "metadata-url": "/p2/%package%.json",
+    "search": "https://packagist.org/search.json?q=%query%&type=%type%",
+    "list": "https://packagist.org/packages/list.json",
+    "providers-api": "https://packagist.org/providers/%package%.json",
+    "warning": "You are using an outdated version of Composer. Composer 2.0 is now available and you should upgrade. See https://getcomposer.org/2",
+    "warning-versions": "<1.10.10",
+    "provider-includes": {
+        "p/provider-2013$%hash%.json": {
+            "sha256": "2b3e8be9a10359999ff74a8b4dd1eecf862ca62671866de244eb4a80016156af"
+        },
+        "p/provider-2014$%hash%.json": {
+            "sha256": "118c6bc92a5d6b21e5cf8b859d12b42a89bdbeb41d93a8fadd3222fcbaa892eb"
+        },
+        "p/provider-2015$%hash%.json": {
+            "sha256": "1d9bf63fd8817ccac2d3233f81761b9582cb41fc8454a2f4156f806f0cce92a2"
+        },
+        "p/provider-2016$%hash%.json": {
+            "sha256": "b8b9297397bfa50359827d946c567839737658cd595249968950655f08e082e8"
+        },
+        "p/provider-2017$%hash%.json": {
+            "sha256": "c2947b607dee40afc15d3772d6a16ed68104692db9db41ec8207558d13e6142d"
+        },
+        "p/provider-2018$%hash%.json": {
+            "sha256": "db36085bb30f93155be97c8d0deaa97b83c130d7aea35732529ba5763de9c04f"
+        },
+        "p/provider-2019$%hash%.json": {
+            "sha256": "15765681b2c25d1fb015b93d2b008b0ad1a62af346a3c76e3c4f3ec45dc1a714"
+        },
+        "p/provider-2020$%hash%.json": {
+            "sha256": "6e193ec70f918991f5faaab8220a263bdf610d558e8aa93c4d6ee21185307ed6"
+        },
+        "p/provider-2020-04$%hash%.json": {
+            "sha256": "dc03551e07ff8f1d62d5ad6a3a86a6176b5076c42823194fabde388ed5152622"
+        },
+        "p/provider-2020-07$%hash%.json": {
+            "sha256": "906c2bae91dd276a6b651cafecf9782e64cfefa2cddc309b2c646d53d9cd74e2"
+        },
+        "p/provider-2020-10$%hash%.json": {
+            "sha256": "f48e9976fd991a1607db625e3f0ee7f182ef8b9e1f32678ced902118c764018c"
+        },
+        "p/provider-2021-01$%hash%.json": {
+            "sha256": "f2f5bd9a2c4b2aa20fad4be08aee981e1bd3c6af4e422b460e7e37f88b486686"
+        },
+        "p/provider-archived$%hash%.json": {
+            "sha256": "1df3db242e7173cf508f9ef95d26a33c6c75ac4613dd9f3a5981fd1e839fdfc4"
+        },
+        "p/provider-latest$%hash%.json": {
+            "sha256": "8fbea0401e9c70c1eae311109d4d7431769477d34627869d3efecf29b9128247"
+        }
+    }
+}
